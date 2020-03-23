@@ -20,6 +20,6 @@ steps:
     location: 'West US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName qiflarm -linkedTemplateUri https://github.com/msft-qifan/arm'
+    overrideParameters: '-projectName qiflarm -linkedTemplateUri https://github.com/msft-qifan/arm/raw/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
